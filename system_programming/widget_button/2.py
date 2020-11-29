@@ -11,31 +11,37 @@ def red():
     code.insert(0, "#ff0000")
     label['text'] = 'Красный'
     root['background'] = 'red'
+    
 def orange():
     code.delete(0, END)
     code.insert(0, "#FFA500")
     label['text'] = 'Оранжевый'
     root['background'] = 'orange'
+    
 def yellow():
     code.delete(0, END)
     code.insert(0, "#FFFF00")
     label['text'] = 'Жёлтый'
     root['background'] = 'yellow'
+    
 def green():
     code.delete(0, END)
     code.insert(0, "#00FF00")
     label['text'] = 'Зелёный'
     root['background'] = 'green'
+    
 def sky():
     code.delete(0, END)
     code.insert(0, "#00FFFF")
     label['text'] = 'Голубой'
     root['background'] = 'sky'
+    
 def blue():
     code.delete(0, END)
     code.insert(0, "#0000FF")
     label['text'] = 'Синий'
     root['background'] = 'blue'
+    
 def purple():
     code.delete(0, END)
     code.insert(0, "#800080")
@@ -50,6 +56,7 @@ btn4 = Button(bg='#00FF00', command=green, width=15)
 btn5 = Button(bg='#00FFFF', command=sky, width=15)
 btn6 = Button(bg='#0000FF', command=blue, width=15)
 btn7 = Button(bg='#800080', command=purple, width=15)
+
 label.pack()
 code.pack()
 btn1.pack()
