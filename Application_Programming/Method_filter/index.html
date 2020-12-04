@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript">
+		let arr = [-1, 2, -3, 4, 5];
+		alert("Первое задание: "  + arr.filter(elem => elem >  0))
+
+		let arr1 = [-1, 2, -3, 4, -5];
+		alert("Второе задание: "  + arr1.filter(elem => elem <  0))
+
+		let arr2 = [-1, 2, -33, 4, -15];
+		alert("Третье задание: "  + arr2.filter(elem => elem >0 & elem <=10))
+
+		let arr3 = ["Симуляция", "Транспонирование", "Факт"];
+		alert("Четвертое задание: "  + arr3.filter(elem => elem.length >5))
+
+		let arr4 = [1,-52,34,80,5,1,19];
+		let res = arr4.filter(function(elem,index){
+    	if (elem*index < 30){return true;}
+   		else{return false;}});
+   		alert("Пятое задание: "  + (res))
+
+		let arr5 = [3,6,[4,6],7,[9,1]];
+		alert("Шестое задание: "  + arr5.filter(elem => typeof elem!='object'))
+
+		let arr6 = [-1, -2, -3, 4, 5];
+		alert("Седьмое задание: "  + arr6.filter(elem => elem < 0).length);
+
+	</script>
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
