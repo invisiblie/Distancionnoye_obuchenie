@@ -1,0 +1,1 @@
+console.log(/^https?/.test('https://vk.com'));

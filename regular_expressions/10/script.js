@@ -1,0 +1,1 @@
+console.log(/(^[^.][a-z\d._-]+[^.])@([a-z]{4})\.([a-z]{2,3})/.test('nikitaF@gmail.com'));
